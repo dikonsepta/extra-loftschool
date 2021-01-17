@@ -10,9 +10,9 @@
     Вывод: true
 */
 
-const path = "/users/download/index.html";
+path = "/users/download/index.html"; // const
 
-const isHtml = address => address.slice(-5) == ".html";
+isHtml = address => address.slice(-5) == ".html"; //const
 
 // const isHtml = address => {
 //     let result = false;
@@ -24,4 +24,4 @@ const isHtml = address => address.slice(-5) == ".html";
 //     return result;
 // }
 
-console.log(isHtml(path));
+window.alert(isHtml(path));

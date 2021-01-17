@@ -10,10 +10,10 @@
     Вывод: иеаеа
 */
 
-const string = "ПРИВЕТ! КАК ДЕЛА?";
+string = "ПРИВЕТ! КАК ДЕЛА?"; // const
 
-const getVowels = lower => {
-    const vowels = ["а", "е", "ё", "и", "о", "у", "ы", "э", "ю", "я"];
+getVowels = lower => { // const
+    let vowels = ["а", "е", "ё", "и", "о", "у", "ы", "э", "ю", "я"];
     let result = "";
 
     for (let i = 0; i < lower.length; i++) {
@@ -27,22 +27,6 @@ const getVowels = lower => {
     return result;
 }
 
-// const getVowels = (lower) => {
-//     lower = string.toLowerCase();
-//     lowerLen = lower.length;
-//     const vowels = ["а", "е", "ё", "и", "о", "у", "ы", "э", "ю", "я"];
-//     vowelsLen = vowels.length;
-//     var result = "";
+//  Решала циклом в цикле, пока не узнала о includes
 
-//     for (let i = 0; i < lowerLen; i++) {
-//         for (let j = 0; j < vowelsLen; j++) {
-//             if (lower[i] == vowels[j]) {
-//                 result = result + string[i];
-//             }
-//         }
-//     }
-
-//     return result.toLowerCase();
-// }
-
-console.log(getVowels(string));
+window.alert(getVowels(string));

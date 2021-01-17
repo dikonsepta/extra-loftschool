@@ -16,13 +16,13 @@
     Вывод: Mike,Linda
 */
 
-const workers = [
+workers = [ // const
     { "name": "John", "salary": 500 },
     { "name": "Mike", "salary": 1300 },
     { "name": "Linda", "salary": 1500 }
 ];
 
-const getWorthyWorkers = objects => {
+getWorthyWorkers = objects => { // const
     let result = [];
 
     // for (let i = 0; i < objects.length; i++) {
@@ -35,4 +35,4 @@ const getWorthyWorkers = objects => {
     return result;
 }
 
-console.log(getWorthyWorkers(workers))
+window.alert(getWorthyWorkers(workers))

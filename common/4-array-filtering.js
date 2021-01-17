@@ -14,10 +14,10 @@
     Вывод: 74,14,66,22,4
 */
 
-const mixedArray = [3, 13, 74, 14, 66, 15, 22, 4];
-const isEven = num => num % 2 == 0;
+mixedArray = [3, 13, 74, 14, 66, 15, 22, 4]; // const
+isEven = num => num % 2 == 0; // const
 
-const filterArray = (array, funct) => {
+filterArray = (array, funct) => { // const
     let result = [];
 
     array.forEach(element => {
@@ -29,4 +29,4 @@ const filterArray = (array, funct) => {
     return result;
 }
 
-console.log(filterArray(mixedArray, isEven));
+window.alert(filterArray(mixedArray, isEven));
