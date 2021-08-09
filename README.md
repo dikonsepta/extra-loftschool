@@ -17,4 +17,4 @@
 
 ---
 
-### [Интерактивное представление](https://dimustard.github.io/extra-loftschool/) :rocket:
+### [Интерактивное представление](https://dikonsepta.github.io/extra-loftschool/) :rocket:
