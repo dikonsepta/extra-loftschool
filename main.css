@@ -1,3 +1,7 @@
+:root {
+    color-scheme: only light;
+}
+
 * {
     font-family: "Calibri", "Arial", sans-serif;
     font-size: 20px;
